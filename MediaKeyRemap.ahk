@@ -9,6 +9,6 @@ return
 
 
 Media_Play_Pause::
-SoundSet, 50
+SoundSet, 40
 SendInput {Media_Play_Pause}
 return
