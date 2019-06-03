@@ -1,5 +1,6 @@
 DeviceNumber := 6 ; Found using https://www.autohotkey.com/docs/commands/SoundSet.htm#Ex
 
+
 $Media_Prev::
     SendInput {Media_Stop}
     SoundSet, 0, , mute, DeviceNumber
