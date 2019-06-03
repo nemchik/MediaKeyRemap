@@ -1,7 +1,9 @@
+DeviceNumber := 6 ; Found using https://www.autohotkey.com/docs/commands/SoundSet.htm#Ex
+
 $Media_Prev::
     SendInput {Media_Stop}
-    SoundSet, 0, Microphone, mute
-    SoundSet, 50, Microphone
+    SoundSet, 0, , mute, DeviceNumber
+    SoundSet, 50, , , DeviceNumber
     WinActivate ahk_exe 3CXWin8Phone.exe
     ControlSend, , {Enter}, ahk_exe 3CXWin8Phone.exe
     SoundSet, 75
